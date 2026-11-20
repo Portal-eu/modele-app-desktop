@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Permissions minimales de la fenêtre principale. Ajouter un plugin (dialog, fs…) seulement si l'app en a besoin, avec les seules permissions nécessaires et jamais de portée sur tout le disque.",
+  "windows": ["main"],
+  "permissions": ["core:default"]
+}

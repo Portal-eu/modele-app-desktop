@@ -1,0 +1,20 @@
+# Dépendances
+node_modules/
+
+# Builds
+dist/
+src-tauri/target/
+src-tauri/gen/
+*.exe
+
+# Éditeurs et système
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environnement (aucun secret dans le dépôt)
+.env
+.env.*

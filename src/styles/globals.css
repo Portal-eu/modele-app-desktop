@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Couleurs du logo Portal */
+@theme {
+  --color-portal: #7c5cff;
+  --color-portal-dark: #6a4cf0;
+  --color-portal-bleu: #4ea8e0;
+  --color-fond: #0f1117;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-fond);
+  color: #e2e8f0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}

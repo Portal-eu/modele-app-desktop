@@ -1,0 +1,38 @@
+{
+  "name": "modele-app-desktop",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Dépôt modèle des apps desktop de Portal (Tauri 2, React, TypeScript)",
+  "author": "Portal ICT",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "typecheck": "tsc",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "verifier-version": "node scripts/verifier-version.mjs"
+  },
+  "dependencies": {
+    "@tanstack/react-virtual": "3.14.26",
+    "@tauri-apps/api": "2.12.5",
+    "clsx": "2.1.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zustand": "5.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.5",
+    "@tauri-apps/cli": "2.12.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.3.0",
+    "tailwindcss": "4.3.5",
+    "typescript": "6.0.3",
+    "vite": "8.3.8"
+  }
+}
